@@ -1,2 +1,3 @@
 # Wordle-Information-theory
-This is a wordle game where a bot uses information theory to tell you best guess
+
+Developed an algorithmic framework using entropy and probability theory to efficiently reduce search spaces in a constrained environment (Wordle). Demonstrated the application of information theory principles to real-world problem solving, optimizing decisions under uncertainty.
