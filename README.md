@@ -73,7 +73,4 @@ A provided `.vscode/launch.json` makes debugging with GDB easy.
 
 ---
 
-## License
-
-MIT License.  
-Feel free to fork, modify, and experiment with the bot or word lists.
+MIT License.
