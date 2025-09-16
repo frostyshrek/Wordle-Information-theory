@@ -47,11 +47,9 @@ From project root (so the `data/` folder is found correctly):
 You will be prompted for game mode:
 - **Normal Mode** → Play interactively, like the real Wordle
 - **Auto Play** → Let the bot play automatically
-- **Hints Mode** → Bot suggests optimal next guesses while you play
-
 ---
 
-## 🤖 The Bot
+## The Bot
 
 The **WordleBot** uses an **information theory approach**:
 - Computes **feedback patterns** (green/yellow/gray)
@@ -61,23 +59,9 @@ The **WordleBot** uses an **information theory approach**:
 
 This allows it to play optimally and even test different starting words.
 
-You can also configure it to:
-- Show the **top 5 candidate guesses**
-- Play automatically until it wins or fails
-
 ---
 
-## 📖 Word Lists
-
-The game uses the same lists as the official Wordle:
-- `wordle-answers-alphabetical.txt` → possible solutions
-- `valid-wordle-words.txt` → valid guesses
-
-These files are stored under `data/`.
-
----
-
-## 🚀 VS Code Integration
+## VS Code Integration
 
 If you use VS Code:
 1. Install the **CMake Tools** extension
@@ -89,16 +73,7 @@ A provided `.vscode/launch.json` makes debugging with GDB easy.
 
 ---
 
-## 📌 TODO / Ideas
-
-- [ ] Add statistics output (average guesses per solve)
-- [ ] Support custom word lists
-- [ ] Add colored grid rendering for better UX
-- [ ] Optimize entropy calculations for larger test sizes
-
----
-
-## 📜 License
+## License
 
 MIT License.  
 Feel free to fork, modify, and experiment with the bot or word lists.
