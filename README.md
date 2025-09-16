@@ -35,7 +35,7 @@ build/wordle.exe
 
 ---
 
-## ▶️ Running the Game
+## Running the Game
 
 From project root (so the `data/` folder is found correctly):
 
