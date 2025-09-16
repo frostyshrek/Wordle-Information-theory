@@ -1,21 +1,14 @@
-# Compiled object files
+# Build artifacts
+/build/
+/*.exe
+/*.out
+/*.app
 *.o
 *.obj
 
-# Executables
-*.exe
-*.out
-*.app
+# VS Code
+.vscode/
 
-# Libraries
-*.so
-*.dll
-*.dylib
-*.a
-*.lib
-
-# Build directories
-/build/
-/bin/
-/Debug/
-/Release/
+# OS junk
+.DS_Store
+Thumbs.db
